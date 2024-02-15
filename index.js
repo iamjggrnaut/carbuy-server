@@ -1,6 +1,5 @@
-require('dotenv').config()
 const express = require('express')
-const PORT = process.env.PORT || 5000
+const PORT = 5000
 const cors = require('cors')
 const router = require('./routes/index')
 const fs = require('fs')
