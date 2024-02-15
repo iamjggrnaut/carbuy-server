@@ -68,3 +68,5 @@ class MailingController {
     }
 
 }
+
+module.exports = new MailingController()

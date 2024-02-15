@@ -1,10 +1,10 @@
 const Router = require('express')
-const mailing = require('../controllers/mailing')
+const mailingController = require('../controllers/mailingController')
 const router = new Router()
 
 
-router.post('/request-price', () => { console.log('Done'); })
-router.post('/request-call', () => { console.log('Done'); })
+router.post('/request-price', mailingController.postInfo)
+router.post('/request-call', mailingController.postNumber)
 
 
 module.exports = router
