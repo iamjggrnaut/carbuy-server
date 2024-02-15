@@ -19,7 +19,7 @@ class MailingController {
 
         let result = await transporter.sendMail({
             from: 'vykupavto.54@internet.ru',
-            to: 'rustam.tahamtan@gmail.com',
+            to: 'carbuyout.nsk@gmail.com',
             subject: 'Запрос звонка от клиента',
             text: 'Данное письмо отправлено с сервиса car-buyout.ru',
             html:
@@ -48,7 +48,7 @@ class MailingController {
 
         let result = await transporter.sendMail({
             from: 'vykupavto.54@internet.ru',
-            to: 'rustam.tahamtan@gmail.com',
+            to: 'carbuyout.nsk@gmail.com',
             subject: 'Запрос цены от клиента',
             text: 'Данное письмо отправлено с сервиса car-buyout.ru',
             html:
